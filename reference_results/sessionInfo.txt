@@ -13,5 +13,5 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 loaded via a namespace (and not attached):
- [1] MASS_7.3-51.5   compiler_3.6.3  tools_3.6.3     parallel_3.6.3  foreign_0.8-76  nlme_3.1-145    mnormt_1.5-6   
- [8] grid_3.6.3      psych_1.9.12.31 jsonlite_1.6.1  lattice_0.20-41
+ [1] MASS_7.3-51.5   compiler_3.6.3  tools_3.6.3     parallel_3.6.3  nlme_3.1-145    mnormt_1.5-6    grid_3.6.3     
+ [8] psych_1.9.12.31 jsonlite_1.6.1  lattice_0.20-41

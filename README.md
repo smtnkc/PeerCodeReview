@@ -41,7 +41,7 @@ The analysis writes to `results/`, the figure script to `figures/`, and the tabl
 
 The reference environment was **R 3.6.3**, **MASS 7.3-51.5**, **psych 1.9.12.31**, and **jsonlite 1.6.1**; full loaded-package versions are in `reference_results/sessionInfo.txt`. Install the three R packages if absent. Matching the recorded environment is recommended for exact numerical reproduction; different package or numerical-library versions can affect simulated results or factor diagnostics. The verifier reports any numerical differences rather than silently accepting them.
 
-The base seed is 20261109. Permutation tests use 99,999 replicates, bootstrap intervals use 10,000 replicates, and parallel analysis uses 1,000 replicates. Parallel analysis is forced to one core. Seven focal tests share one Holm adjustment; the two secondary gender comparisons have a separate Holm adjustment. The ordinal model is retained only as a diagnostic output and must not be interpreted as an established adjusted effect.
+The base seed is 42. Permutation tests use 99,999 replicates, bootstrap intervals use 10,000 replicates, and parallel analysis uses 1,000 replicates. Parallel analysis is forced to one core. Seven focal tests share one Holm adjustment; the two secondary gender comparisons have a separate Holm adjustment. The ordinal model is retained only as a diagnostic output and must not be interpreted as an established adjusted effect.
 
 The public pipeline was run independently of the private source workbooks. Its complete saved result object reproduced every reference numerical result exactly in the recorded environment.
 

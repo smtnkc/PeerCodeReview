@@ -12,7 +12,7 @@ context <- jsonlite::fromJSON(file.path(base,'data','aggregate_context.json'))
 stopifnot(nrow(d)==65, !anyNA(d), all(d$gender %in% c('Male','Female','Prefer not to say')),
           all(d$prior_programming %in% 0:1), all(d$recalled_interactive %in% 0:1),
           all(as.matrix(d[paste0('Q',1:9)]) %in% 1:5))
-seed <- 20261109L; B <- 10000L; M <- 99999L
+seed <- 42L; B <- 10000L; M <- 99999L
 set.seed(seed)
 qs <- paste0('Q',1:9)
 desc <- do.call(rbind,lapply(qs,function(q){

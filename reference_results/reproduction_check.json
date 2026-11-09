@@ -11,5 +11,7 @@
     "first_time",
     "detailed_language_experience"
   ],
-  "analysis_environment": "See sessionInfo.txt"
+  "analysis_environment": "See sessionInfo.txt",
+  "base_seed": 42,
+  "seed_sensitivity_material_change": false
 }

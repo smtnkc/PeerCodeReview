@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the associated article and this repository when using these materials."
 type: dataset
 title: "Student participation and perceived benefits of live peer code review in introductory programming laboratories: data and code"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-11-09
 url: "https://github.com/smtnkc/PeerCodeReview"
 authors:
