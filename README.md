@@ -2,9 +2,9 @@
 
 Data and code accompanying **Student participation and perceived benefits of live peer code review in introductory programming laboratories**.
 
-**Authors:** Samet Tenekeci (first and corresponding author; [ORCID](https://orcid.org/0000-0001-8875-4111)) and Hüseyin Ünlü ([ORCID](https://orcid.org/0000-0001-9906-6066)). Both authors contributed equally across the applicable CRediT roles.
+**Authors:** Samet Tenekeci ([ORCID](https://orcid.org/0000-0001-8875-4111)) and Hüseyin Ünlü ([ORCID](https://orcid.org/0000-0001-9906-6066)).
 
-The study concerns an introductory Python programming laboratory in fall 2022. It includes 65 end-of-term respondents from 84 enrolled students. All nine item responses use the same five-point **agreement** scale: 1 = strongly disagree; 5 = strongly agree. Q5 and Q7 are not frequency measures. The study was approved on 7 December 2022 (No. 220001130).
+The study concerns an introductory Python programming laboratory. It includes 65 end-of-term respondents from 84 enrolled students. All nine item responses use the same five-point **agreement** scale: 1 = strongly disagree; 5 = strongly agree. Q5 and Q7 are not frequency measures.
 
 ## Data and files
 
