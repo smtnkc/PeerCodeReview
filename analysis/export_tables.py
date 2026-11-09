@@ -66,13 +66,15 @@ for c in r['correlations']:rows.append([c['a']+'--'+c['b'],65,r'$\rho_s$ = '+fmt
 tab('table4_paired_associations.tex',['Comparison','$n$','Estimate',r'95\% CI',r'$p_{\mathrm{Holm}}$'],rows,'llrrr')
 
 rows=[[q,esc(questions[q])] for q in questions]
-tab('supp_items.tex',['Item','Verbatim statement'],rows,'lp{13.5cm}')
+tab('supp_items.tex',['Item','Verbatim statement'],rows,'lp{14.6cm}')
 rows=[]
 for d in r['descriptives']:
  rows.append([d['item'],*(d[f'n{i}'] for i in range(1,6)),fmt(d['mean']),fmt(d['sd']),f"{d['median']:g} [{d['q1']:g}, {d['q3']:g}]"])
 tab('supp_descriptives.tex',['Item','1','2','3','4','5','Mean','SD','Median [Q1, Q3]'],rows,'lrrrrrrrr')
-rows=[[g['test'].replace('_',r'\_'),g.get('U',''),pval(g['p']),pval(g['p_holm']),fmt(g['asymptotic_p'],6)] for g in r['groups']]
-rows += [[c['test'].replace('_',r'\_'),'--',pval(c['p']),pval(c['p_holm']),'--'] for c in r['correlations']]
+test_labels={'prior_programming__Q5':'Experience: yes vs. no (Q5)', 'recalled_interactive__Q5':'Preference: interactive vs. traditional (Q5)',
+             'prior_programming__Q1':'Experience: yes vs. no (Q1)', 'recalled_interactive__Q1':'Preference: interactive vs. traditional (Q1)'}
+rows=[[test_labels[g['test']],g.get('U',''),pval(g['p']),pval(g['p_holm']),fmt(g['asymptotic_p'],6)] for g in r['groups']]
+rows += [[c['a']+'--'+c['b']+' (Spearman)','--',pval(c['p']),pval(c['p_holm']),'--'] for c in r['correlations']]
 rows.insert(0,['Q7 vs. Q5 (sign)','--',sci(s['p']),sci(s['p_holm']),'--'])
 tab('supp_all_tests.tex',['Test','$U$','$p$',r'$p_{\mathrm{Holm}}$','Asymptotic $p$'],rows,'lrrrr')
 rows=[]
