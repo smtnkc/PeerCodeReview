@@ -1,0 +1,13 @@
+variable,description,values,missing_values
+gender,Self-reported gender,Male; Female; Prefer not to say,"None; Prefer not to say is an explicit response, excluded only from female-versus-male tests"
+prior_programming,Programming experience in Python or any other programming language before the course,0 = No; 1 = Yes,None
+recalled_interactive,End-of-term recollection of the laboratory format selected in an earlier preference poll,0 = Traditional Lab; 1 = Interactive Lab,None
+Q1,I am satisfied with the interactive lab.,1 = strongly disagree; 5 = strongly agree; 2-4 are intermediate ordered categories; exact intermediate verbal labels were not supplied,None
+Q2,Interactive lab sessions increased my interest for the course.,1 = strongly disagree; 5 = strongly agree; 2-4 are intermediate ordered categories; exact intermediate verbal labels were not supplied,None
+Q3,The tools (VS Code Live Share and Microsoft Teams) used in the interactive lab sessions were useful.,1 = strongly disagree; 5 = strongly agree; 2-4 are intermediate ordered categories; exact intermediate verbal labels were not supplied,None
+Q4,It was helpful that the lab materials were shared beforehand rather than during the lab.,1 = strongly disagree; 5 = strongly agree; 2-4 are intermediate ordered categories; exact intermediate verbal labels were not supplied,None
+Q5,I shared my code for the review during the lab sessions.,1 = strongly disagree; 5 = strongly agree; 2-4 are intermediate ordered categories; exact intermediate verbal labels were not supplied,None
+Q6,It was helpful to have my code reviewed by other students during the lab sessions.,1 = strongly disagree; 5 = strongly agree; 2-4 are intermediate ordered categories; exact intermediate verbal labels were not supplied,None
+Q7,I reviewed other students' code during the lab sessions.,1 = strongly disagree; 5 = strongly agree; 2-4 are intermediate ordered categories; exact intermediate verbal labels were not supplied,None
+Q8,Reviewing the other students' code improved my algorithmic thinking skills.,1 = strongly disagree; 5 = strongly agree; 2-4 are intermediate ordered categories; exact intermediate verbal labels were not supplied,None
+Q9,I recommend interactive lab to be carried out in the next term.,1 = strongly disagree; 5 = strongly agree; 2-4 are intermediate ordered categories; exact intermediate verbal labels were not supplied,None

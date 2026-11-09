@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated survey analysis outputs
+results/*
+!results/.gitkeep
+figures/*
+!figures/.gitkeep
+tables/*
+!tables/.gitkeep
+__pycache__/
+.DS_Store
+*.log
+numbers.tex

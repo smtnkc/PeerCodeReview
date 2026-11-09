@@ -1,0 +1,79 @@
+{
+  "collection_period": "Fall 2022",
+  "n": 65,
+  "enrolled": 84,
+  "ethics_approval": "7 December 2022, No. 220001130",
+  "demographics": {
+    "n": 65,
+    "enrolled": 84,
+    "response_rate": 0.7738095238095,
+    "age_mean": 19.507692307692,
+    "age_sd": 1.532186722905,
+    "age_median": 19,
+    "age_min": 17,
+    "age_max": 25,
+    "gender": {
+      "Female": 13,
+      "Male": 48,
+      "Prefer not to say": 4
+    },
+    "prior_programming": {
+      "0": 36,
+      "1": 29
+    },
+    "recalled_interactive": {
+      "0": 14,
+      "1": 51
+    },
+    "first_time": {
+      "0": 3,
+      "1": 62
+    },
+    "python_detail": 25
+  },
+  "experience_sources": [
+    {
+      "language": "python",
+      "source": "online",
+      "n": 21,
+      "percent": 32.307692307692,
+      "unknown": 4
+    },
+    {
+      "language": "python",
+      "source": "formal",
+      "n": 7,
+      "percent": 10.769230769231,
+      "unknown": 4
+    },
+    {
+      "language": "python",
+      "source": "project",
+      "n": 8,
+      "percent": 12.307692307692,
+      "unknown": 4
+    },
+    {
+      "language": "other_languages",
+      "source": "online",
+      "n": 17,
+      "percent": 26.153846153846,
+      "unknown": 12
+    },
+    {
+      "language": "other_languages",
+      "source": "formal",
+      "n": 2,
+      "percent": 3.076923076923,
+      "unknown": 27
+    },
+    {
+      "language": "other_languages",
+      "source": "project",
+      "n": 9,
+      "percent": 13.846153846154,
+      "unknown": 20
+    }
+  ],
+  "note": "Age, first-enrollment status, and detailed language/source information are provided only as aggregates. These descriptive inputs are not independently recomputable from the reduced participant-level dataset; all inferential analyses are recomputable."
+}

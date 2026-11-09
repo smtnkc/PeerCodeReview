@@ -1,0 +1,639 @@
+{
+  "settings": {
+    "seed": 20261109,
+    "bootstrap": 10000,
+    "permutations": 99999,
+    "R": "R version 3.6.3 (2020-02-29)",
+    "RNG": "Mersenne-Twister / Inversion / Rejection",
+    "parallel_analysis_cores": 1,
+    "main_adjustment": "Holm, 7 tests",
+    "gender_adjustment": "Holm, 2 tests"
+  },
+  "demographics": {
+    "n": 65,
+    "enrolled": 84,
+    "response_rate": 0.7738095238095,
+    "age_mean": 19.507692307692,
+    "age_sd": 1.532186722905,
+    "age_median": 19,
+    "age_min": 17,
+    "age_max": 25,
+    "gender": {
+      "Female": 13,
+      "Male": 48,
+      "Prefer not to say": 4
+    },
+    "prior_programming": {
+      "0": 36,
+      "1": 29
+    },
+    "recalled_interactive": {
+      "0": 14,
+      "1": 51
+    },
+    "first_time": {
+      "0": 3,
+      "1": 62
+    },
+    "python_detail": 25
+  },
+  "descriptives": [
+    {
+      "item": "Q1",
+      "n": 65,
+      "mean": 3.538461538462,
+      "sd": 1.001201201634,
+      "median": 4,
+      "q1": 3,
+      "q3": 4,
+      "n1": 2,
+      "n2": 6,
+      "n3": 24,
+      "n4": 21,
+      "n5": 12,
+      "lower": 8,
+      "middle": 24,
+      "upper": 33
+    },
+    {
+      "item": "Q2",
+      "n": 65,
+      "mean": 3.292307692308,
+      "sd": 1.114157149529,
+      "median": 3,
+      "q1": 3,
+      "q3": 4,
+      "n1": 4,
+      "n2": 12,
+      "n3": 19,
+      "n4": 21,
+      "n5": 9,
+      "lower": 16,
+      "middle": 19,
+      "upper": 30
+    },
+    {
+      "item": "Q3",
+      "n": 65,
+      "mean": 4.015384615385,
+      "sd": 1.06788792267,
+      "median": 4,
+      "q1": 3,
+      "q3": 5,
+      "n1": 2,
+      "n2": 4,
+      "n3": 12,
+      "n4": 20,
+      "n5": 27,
+      "lower": 6,
+      "middle": 12,
+      "upper": 47
+    },
+    {
+      "item": "Q4",
+      "n": 65,
+      "mean": 4.338461538462,
+      "sd": 1.004317602232,
+      "median": 5,
+      "q1": 4,
+      "q3": 5,
+      "n1": 2,
+      "n2": 2,
+      "n3": 7,
+      "n4": 15,
+      "n5": 39,
+      "lower": 4,
+      "middle": 7,
+      "upper": 54
+    },
+    {
+      "item": "Q5",
+      "n": 65,
+      "mean": 2.492307692308,
+      "sd": 1.347718870479,
+      "median": 2,
+      "q1": 1,
+      "q3": 4,
+      "n1": 22,
+      "n2": 12,
+      "n3": 13,
+      "n4": 13,
+      "n5": 5,
+      "lower": 34,
+      "middle": 13,
+      "upper": 18
+    },
+    {
+      "item": "Q6",
+      "n": 65,
+      "mean": 3.276923076923,
+      "sd": 1.19252479413,
+      "median": 3,
+      "q1": 3,
+      "q3": 4,
+      "n1": 6,
+      "n2": 9,
+      "n3": 23,
+      "n4": 15,
+      "n5": 12,
+      "lower": 15,
+      "middle": 23,
+      "upper": 27
+    },
+    {
+      "item": "Q7",
+      "n": 65,
+      "mean": 3.769230769231,
+      "sd": 1.128733122371,
+      "median": 4,
+      "q1": 3,
+      "q3": 5,
+      "n1": 4,
+      "n2": 4,
+      "n3": 14,
+      "n4": 24,
+      "n5": 19,
+      "lower": 8,
+      "middle": 14,
+      "upper": 43
+    },
+    {
+      "item": "Q8",
+      "n": 65,
+      "mean": 3.753846153846,
+      "sd": 1.132347799248,
+      "median": 4,
+      "q1": 3,
+      "q3": 5,
+      "n1": 2,
+      "n2": 7,
+      "n3": 18,
+      "n4": 16,
+      "n5": 22,
+      "lower": 9,
+      "middle": 18,
+      "upper": 38
+    },
+    {
+      "item": "Q9",
+      "n": 65,
+      "mean": 3.8,
+      "sd": 1.227293770863,
+      "median": 4,
+      "q1": 3,
+      "q3": 5,
+      "n1": 4,
+      "n2": 5,
+      "n3": 17,
+      "n4": 13,
+      "n5": 26,
+      "lower": 9,
+      "middle": 17,
+      "upper": 39
+    }
+  ],
+  "sign": {
+    "n": 65,
+    "positive": 40,
+    "equal": 19,
+    "negative": 6,
+    "non_tied": 46,
+    "probability": 0.8695652173913,
+    "ci": [0.7374349838124, 0.9505926534263],
+    "p": 3.102803702859e-07,
+    "all_n_positive": 0.6153846153846,
+    "all_n_equal": 0.2923076923077,
+    "all_n_negative": 0.09230769230769,
+    "p_holm": 2.171962592001e-06
+  },
+  "groups": [
+    {
+      "test": "prior_programming__Q5",
+      "outcome": "Q5",
+      "group": "prior_programming",
+      "n1": 29,
+      "n0": 36,
+      "median1": 3,
+      "median0": 1.5,
+      "q11": 2,
+      "q31": 4,
+      "q10": 1,
+      "q30": 3,
+      "U": 727.5,
+      "effect": 0.3936781609195,
+      "ci_low": 0.1331417624521,
+      "ci_high": 0.6322078544061,
+      "p": 0.00468,
+      "asymptotic_p": 0.005233861924054,
+      "p_holm": 0.01404
+    },
+    {
+      "test": "recalled_interactive__Q5",
+      "outcome": "Q5",
+      "group": "recalled_interactive",
+      "n1": 51,
+      "n0": 14,
+      "median1": 3,
+      "median0": 1,
+      "q11": 1,
+      "q31": 4,
+      "q10": 1,
+      "q30": 2,
+      "U": 505.5,
+      "effect": 0.4159663865546,
+      "ci_low": 0.1344537815126,
+      "ci_high": 0.6596638655462,
+      "p": 0.01456,
+      "asymptotic_p": 0.01478398347674,
+      "p_holm": 0.02912
+    },
+    {
+      "test": "prior_programming__Q1",
+      "outcome": "Q1",
+      "group": "prior_programming",
+      "n1": 29,
+      "n0": 36,
+      "median1": 4,
+      "median0": 3,
+      "q11": 3,
+      "q31": 5,
+      "q10": 3,
+      "q30": 4,
+      "U": 635.5,
+      "effect": 0.2174329501916,
+      "ci_low": -0.06034482758621,
+      "ci_high": 0.4818247126437,
+      "p": 0.11492,
+      "asymptotic_p": 0.1178032901972,
+      "p_holm": 0.11492
+    },
+    {
+      "test": "recalled_interactive__Q1",
+      "outcome": "Q1",
+      "group": "recalled_interactive",
+      "n1": 51,
+      "n0": 14,
+      "median1": 4,
+      "median0": 3,
+      "q11": 3,
+      "q31": 4,
+      "q10": 2,
+      "q30": 3,
+      "U": 603.5,
+      "effect": 0.6904761904762,
+      "ci_low": 0.484593837535,
+      "ci_high": 0.859943977591,
+      "p": 1e-05,
+      "asymptotic_p": 3.833538592525e-05,
+      "p_holm": 6e-05
+    }
+  ],
+  "correlations": [
+    {
+      "test": "Q5__Q6",
+      "a": "Q5",
+      "b": "Q6",
+      "n": 65,
+      "rho": 0.4060580543401,
+      "ci_low": 0.1502093915834,
+      "ci_high": 0.6279786691039,
+      "p": 0.00089,
+      "p_holm": 0.00356
+    },
+    {
+      "test": "Q7__Q8",
+      "a": "Q7",
+      "b": "Q8",
+      "n": 65,
+      "rho": 0.5247907755545,
+      "ci_low": 0.2924079853715,
+      "ci_high": 0.7184252484978,
+      "p": 5e-05,
+      "p_holm": 0.00025
+    }
+  ],
+  "gender": [
+    {
+      "test": "gender__Q5",
+      "outcome": "Q5",
+      "group": "gender",
+      "n1": 13,
+      "n0": 48,
+      "median1": 1,
+      "median0": 3,
+      "q11": 1,
+      "q31": 1,
+      "q10": 2,
+      "q30": 4,
+      "U": 117,
+      "effect": -0.625,
+      "ci_low": -0.8333333333333,
+      "ci_high": -0.3589743589744,
+      "p": 0.00024,
+      "asymptotic_p": 0.0004144993141107,
+      "p_holm": 0.00048
+    },
+    {
+      "test": "gender__Q7",
+      "outcome": "Q7",
+      "group": "gender",
+      "n1": 13,
+      "n0": 48,
+      "median1": 4,
+      "median0": 4,
+      "q11": 3,
+      "q31": 4,
+      "q10": 3,
+      "q30": 5,
+      "U": 324,
+      "effect": 0.03846153846154,
+      "ci_low": -0.2724358974359,
+      "ci_high": 0.3413461538462,
+      "p": 0.8325,
+      "asymptotic_p": 0.8320893425837,
+      "p_holm": 0.8325
+    }
+  ],
+  "model": {
+    "convergence": 0,
+    "loglik": -91.099967427077,
+    "AIC": 194.199934854153,
+    "hessian_min_eigen": 1.547859301931,
+    "estimates": [
+      {
+        "predictor": "prior_programming",
+        "beta": 1.40465771438,
+        "se": 0.4773895123151,
+        "OR": 4.074131985784,
+        "ci_low": 1.598353872967,
+        "ci_high": 10.384778814204
+      },
+      {
+        "predictor": "recalled_interactive",
+        "beta": 1.518821461672,
+        "se": 0.5888980295293,
+        "OR": 4.56683982656,
+        "ci_low": 1.439911025446,
+        "ci_high": 14.484246340838
+      }
+    ],
+    "thresholds": [
+      {
+        "cutoff": 1,
+        "term": "(Intercept)",
+        "beta": -1.185927946179,
+        "se": 0.6854853784313,
+        "events": 43
+      },
+      {
+        "cutoff": 1,
+        "term": "prior_programming",
+        "beta": 1.976788071586,
+        "se": 0.6765870667337,
+        "events": 43
+      },
+      {
+        "cutoff": 1,
+        "term": "recalled_interactive",
+        "beta": 1.49231617838,
+        "se": 0.7146439939529,
+        "events": 43
+      },
+      {
+        "cutoff": 2,
+        "term": "(Intercept)",
+        "beta": -1.876529858324,
+        "se": 0.7415809188854,
+        "events": 31
+      },
+      {
+        "cutoff": 2,
+        "term": "prior_programming",
+        "beta": 1.13627938011,
+        "se": 0.5440329556225,
+        "events": 31
+      },
+      {
+        "cutoff": 2,
+        "term": "recalled_interactive",
+        "beta": 1.579755857791,
+        "se": 0.7363333818457,
+        "events": 31
+      },
+      {
+        "cutoff": 3,
+        "term": "(Intercept)",
+        "beta": -3.078144721433,
+        "se": 1.109681560453,
+        "events": 18
+      },
+      {
+        "cutoff": 3,
+        "term": "prior_programming",
+        "beta": 0.9665631557907,
+        "se": 0.5878024294843,
+        "events": 18
+      },
+      {
+        "cutoff": 3,
+        "term": "recalled_interactive",
+        "beta": 1.911287246021,
+        "se": 1.090875650725,
+        "events": 18
+      },
+      {
+        "cutoff": 4,
+        "term": "(Intercept)",
+        "beta": -20.572520178184,
+        "se": 2741.26228807162,
+        "events": 5
+      },
+      {
+        "cutoff": 4,
+        "term": "prior_programming",
+        "beta": 1.737692247958,
+        "se": 1.157440529456,
+        "events": 5
+      },
+      {
+        "cutoff": 4,
+        "term": "recalled_interactive",
+        "beta": 17.27668331218,
+        "se": 2741.26217079664,
+        "events": 5
+      }
+    ],
+    "retained": false,
+    "decision": "Not retained as an interpretable adjusted model: threshold-specific logistic fits are unstable/separated, so the proportional-odds assumption cannot be adequately assessed in these sparse data.",
+    "gender_model_decision": "Not fitted: female Q5 cells include zeros in categories 3 and 5 and only one response in category 4; no stable adjusted gender model is asserted."
+  },
+  "measurement": {
+    "reliability": [
+      {
+        "scale": "General evaluation (Q1-Q4,Q9)",
+        "k": 5,
+        "alpha": 0.8483580799749,
+        "ci_low": 0.7559858809313,
+        "ci_high": 0.9009127806448,
+        "pearson_r": null,
+        "spearman_brown": null,
+        "_row": "2.5%"
+      },
+      {
+        "scale": "Sharing and perceived benefit (Q5,Q6)",
+        "k": 2,
+        "alpha": 0.5973971889641,
+        "ci_low": 0.3105000636391,
+        "ci_high": 0.7699014439815,
+        "pearson_r": 0.4291118333423,
+        "spearman_brown": 0.6005293964136,
+        "_row": "2.5%1"
+      },
+      {
+        "scale": "Reviewing and perceived benefit (Q7,Q8)",
+        "k": 2,
+        "alpha": 0.7026961083323,
+        "ci_low": 0.4515130209044,
+        "ci_high": 0.8473767199989,
+        "pearson_r": 0.5416615987895,
+        "spearman_brown": 0.70269843812,
+        "_row": "2.5%2"
+      }
+    ],
+    "omega_general_onefactor": 0.85668412483,
+    "KMO": 0.7236027803599,
+    "item_KMO": [0.7406289510896, 0.7519007667976, 0.9179706104995, 0.8231476913406, 0.7529672000875, 0.6868867736948, 0.4252447148143, 0.6238592701115, 0.8132004598128],
+    "bartlett": {
+      "chisq": 277.022761891142,
+      "p.value": 5.699460116337e-39,
+      "df": 36
+    },
+    "parallel": {
+      "nfact": 3,
+      "ncomp": 1,
+      "fa_observed": [3.515667690588, 0.7004932854825, 0.4547614706158, 0.0771003548263, -0.02484339422002, -0.1366599630661, -0.1943503681688, -0.3797981324669, -0.4967035677146],
+      "fa_reference_mean": [0.9360091189597, 0.4428758051181, 0.2851816703195, 0.154516256175, 0.04510725365194, -0.06062710947887, -0.171502014839, -0.2861652391611, -0.4107601962595],
+      "fa_reference_95": [1.23864600435, 0.5708999190792, 0.3881848450241, 0.2325684125059, 0.1193239776968, 0.01045090413527, -0.09361361504424, -0.1973836740755, -0.3136822340651],
+      "pc_observed": [3.975877544774, 1.50033051175, 1.123499194642, 0.7380891336746, 0.559220888451, 0.4782398710586, 0.287027028668, 0.2152596283393, 0.1224561986422],
+      "pc_reference_mean": [1.616110723888, 1.393084613446, 1.22699287027, 1.090250454576, 0.9716326803701, 0.8511175283205, 0.7366214164959, 0.6182211107939, 0.4959686018393],
+      "pc_reference_95": [1.811521617606, 1.523016773893, 1.335906254696, 1.176402760459, 1.055502031326, 0.9309222000489, 0.8220548480909, 0.7043580945164, 0.5972570774639]
+    },
+    "common_factors": [
+      {
+        "k": 3,
+        "loadings": [
+          [0.7148978028854, -0.03471125326659, 0.4817961452015],
+          [0.7639995265196, 0.02667459951951, 0.2950554521903],
+          [0.6060388251483, 0.1152256693013, -0.07455095863131],
+          [0.5190745455786, -0.03599583579297, -0.02340423125442],
+          [0.2630318293791, -0.2234057257192, 0.8027767594813],
+          [-0.0789039778293, 0.242200947455, 0.5506996160944],
+          [-0.1051964508644, 0.6336558819339, 0.1790356996105],
+          [0.3514681357259, 0.9218209240906, -0.2657142848218],
+          [0.8147823422299, 0.1666778755411, 0.01564391806097]
+        ],
+        "Phi": [
+          [1, 0.200978218864, 0.1628949346955],
+          [0.200978218864, 1, 0.4506422856352],
+          [0.1628949346955, 0.4506422856352, 1]
+        ],
+        "communality": [0.8315772961657, 0.7601899793135, 0.3917253307281, 0.2605728982389, 0.6470779146187, 0.466532527241, 0.5139582509832, 0.922930805073, 0.7529874230476],
+        "uniqueness": [0.1684227038343, 0.2398100206865, 0.6082746692719, 0.7394271017611, 0.3529220853813, 0.533467472759, 0.4860417490168, 0.07706919492697, 0.2470125769524],
+        "rms": 0.03335434983102,
+        "fit_off": 0.9930653233212,
+        "heywood": false
+      },
+      {
+        "k": 1,
+        "loadings": [
+          [0.8869932247118],
+          [0.867418254904],
+          [0.5531597959636],
+          [0.4234004238536],
+          [0.51315678576],
+          [0.3451451994],
+          [0.3244914816077],
+          [0.584038815445],
+          [0.8138741502458]
+        ],
+        "Phi": [
+          [1]
+        ],
+        "communality": [0.7867569806847, 0.7524144289408, 0.3059857598705, 0.1792679189194, 0.2633298867716, 0.1191252086689, 0.105294721636, 0.3411013379464, 0.6623911324383],
+        "uniqueness": [0.2132430193153, 0.2475855710592, 0.6940142401295, 0.8207320810806, 0.7366701132284, 0.8808747913311, 0.894705278364, 0.6588986620536, 0.3376088675617],
+        "rms": 0.1264619817616,
+        "fit_off": 0.9003123805721,
+        "heywood": false
+      }
+    ],
+    "polychoric": {
+      "warnings": "36 cells were adjusted for 0 values using the correction for continuity. Examine your data carefully.",
+      "empty_cells_min": 4,
+      "empty_cells_max": 13,
+      "empty_cells_median": 8,
+      "min_eigen": 0.2765949995634,
+      "rho": [
+        [1, 0.5886735929973, 0.4115099931879, 0.3507955662504, 0.4269341921428, 0.273622042814, 0.2993001062269, 0.3332211933803, 0.5856677883507],
+        [0.5886735929973, 1, 0.4515386725023, 0.2879729003297, 0.3986559090499, 0.2690896007868, 0.111595936091, 0.4217024351034, 0.597840932119],
+        [0.4115099931879, 0.4515386725023, 1, 0.3606697120583, 0.1072128337173, 0.1080065089815, 0.2054121274451, 0.4046990323346, 0.4945411172099],
+        [0.3507955662504, 0.2879729003297, 0.3606697120583, 1, 0.03993438392662, 0.08061155055861, 0.1719229289406, 0.2958904902029, 0.513226406876],
+        [0.4269341921428, 0.3986559090499, 0.1072128337173, 0.03993438392662, 1, 0.3679525013422, 0.1688797429244, 0.05498101645956, 0.2325952283104],
+        [0.273622042814, 0.2690896007868, 0.1080065089815, 0.08061155055861, 0.3679525013422, 1, 0.3992543293832, 0.2532529954979, 0.1687262543234],
+        [0.2993001062269, 0.111595936091, 0.2054121274451, 0.1719229289406, 0.1688797429244, 0.3992543293832, 1, 0.4985234927427, 0.2338158209196],
+        [0.3332211933803, 0.4217024351034, 0.4046990323346, 0.2958904902029, 0.05498101645956, 0.2532529954979, 0.4985234927427, 1, 0.4908819726988],
+        [0.5856677883507, 0.597840932119, 0.4945411172099, 0.513226406876, 0.2325952283104, 0.1687262543234, 0.2338158209196, 0.4908819726988, 1]
+      ],
+      "retained": false,
+      "decision": "Not used for main inference: sparse bivariate category tables and small sample; Pearson common-factor diagnostics are exploratory only."
+    },
+    "composite_decision": "No two-item role composite is interpreted because its items mix participation and perceived benefit. No legacy Welch-composite tests are used as inferential evidence."
+  },
+  "experience_sources": [
+    {
+      "language": "python",
+      "source": "online",
+      "n": 21,
+      "percent": 32.307692307692,
+      "unknown": 4
+    },
+    {
+      "language": "python",
+      "source": "formal",
+      "n": 7,
+      "percent": 10.769230769231,
+      "unknown": 4
+    },
+    {
+      "language": "python",
+      "source": "project",
+      "n": 8,
+      "percent": 12.307692307692,
+      "unknown": 4
+    },
+    {
+      "language": "other_languages",
+      "source": "online",
+      "n": 17,
+      "percent": 26.153846153846,
+      "unknown": 12
+    },
+    {
+      "language": "other_languages",
+      "source": "formal",
+      "n": 2,
+      "percent": 3.076923076923,
+      "unknown": 27
+    },
+    {
+      "language": "other_languages",
+      "source": "project",
+      "n": 9,
+      "percent": 13.846153846154,
+      "unknown": 20
+    }
+  ],
+  "sensitivity": {
+    "wilcoxon_status": "Not interpreted: interval-scale score differences and a symmetric numeric difference distribution are not assumed. The sign test compares direction only on the shared agreement scale.",
+    "welch_status": "No two-item role composite is interpreted because its items mix participation and perceived benefit. No legacy Welch-composite tests are used as inferential evidence."
+  }
+}

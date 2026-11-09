@@ -1,0 +1,15 @@
+{
+  "all_result_objects_exactly_identical": true,
+  "all_14_latex_tables_identical": true,
+  "number_macros_identical": true,
+  "respondent_rows": 65,
+  "respondent_columns": 12,
+  "independent_checks_passed": 35,
+  "private_source_files_required": false,
+  "aggregate_only_fields": [
+    "age",
+    "first_time",
+    "detailed_language_experience"
+  ],
+  "analysis_environment": "See sessionInfo.txt"
+}

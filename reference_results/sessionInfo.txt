@@ -1,0 +1,17 @@
+R version 3.6.3 (2020-02-29)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: OS X Snow Leopard 26.6.2
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRblas.0.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRlapack.dylib
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] MASS_7.3-51.5   compiler_3.6.3  tools_3.6.3     parallel_3.6.3  foreign_0.8-76  nlme_3.1-145    mnormt_1.5-6   
+ [8] grid_3.6.3      psych_1.9.12.31 jsonlite_1.6.1  lattice_0.20-41
